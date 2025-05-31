@@ -19,7 +19,7 @@ export async function GET() {
       buttonTitle: `Start Confessing`,
       splashImageUrl: process.env.NEXT_PUBLIC_SPLASH_IMAGE_URL,
       splashBackgroundColor: `#${process.env.NEXT_PUBLIC_SPLASH_BACKGROUND_COLOR}`,
-      webhookUrl: `${URL}/api/webhook`,
+      webhookUrl: `https://debbiedoes.fun/api/webhook`,
     },
   });
 }
